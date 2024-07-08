@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadman FB</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0844fbe91a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="img/Sagor.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="img/bell.png" ></li>
+                <li><img src="img/message.png" ></li>
+                <li><img src="img/You.png" ></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="img/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="img/p6.jpeg">
+            </div>
+
+        </div>
+ <!-----------setting-menu------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn" class="">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/p6.jpeg" alt="">
+                    <div>
+                        <p>Sadman Sagor</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/img/askeing.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="img/img/settings.png" width="45px" class="settings-icon" alt="">
+                    <a href="#">Settings & Privacy <img src="img/img/right-arrow.png"
+                    width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/img/question.png" width="45px" class="settings-icon" alt="">
+                    <a href="#">Help & Support <img src="img/img/right-arrow.png"
+                    width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/img/dark-mode.png" width="45px" class="settings-icon" alt="">
+                    <a href="#">Display & Accessibility <img src="img/img/right-arrow.png"
+                    width="10px" alt=""></a>
+                </div>
+                <div class="settings-links">
+                    <img src="img/img/logout.png" width="45px" class="settings-icon" alt="">
+                    <a href="#">Logout <img src="img/img/right-arrow.png"
+                    width="10px" alt=""></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <!-----------left-sidebar------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="img/news.png">Latest News</a>
+                <a href="#"><img src="img/frind.png">Friends</a>
+                <a href="#"><img src="img/group.png">Group</a>
+                <a href="#"><img src="img/Marketplace.png">Marketplace</a>
+                <a href="#"><img src="img/img/youtube.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="img/img/programming.png">Web Developers</a>
+                <a href="#"><img src="img/wev design.png">Web Desing Course</a>
+                <a href="#"><img src="img/fullstack-development.png">Full Stack Development</a>
+                <a href="#"><img src="img/website exp.jpg">Website Expert</a>
+            </div>
+        </div>
+        <!-----------main-content------------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="img/img/story.png" alt="Story">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="img/nahid.jpg" alt="Story">
+                    <p>Md Nahid Hasan</p>
+                </div>
+                <div class="story story3">
+                    <img src="img/abu.jpg" alt="Story">
+                    <p>Abu Talha</p>
+                </div>
+                <div class="story story4">
+                    <img src="img/sakib.jpg" alt="Story">
+                    <p>Md Shakib</p>
+                </div>
+                <div class="story story5">
+                    <img src="img/G Rabbi.jpg" alt="Story">
+                    <p>Golam Rabbi</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="img/p6.jpeg" alt="">
+                    <div>
+                        <p>Sadman Sagor</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Sadman"></textarea>
+                    <div class="add-post-links">
+                        <a href="$"><img src="img/img/video-camera.png" alt="">Live Video</a>
+                        <a href="$"><img src="img/img/icono-de-camara-verte.png" alt="">Photo/Video</a>
+                        <a href="$"><img src="img/img/smile.png" alt="">Felling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">June 24 2022, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> YouTube Channel to watch More Videos on
+                    website development and UI designs. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/tour.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">June 24 2022, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/p6.jpeg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">Julay 31 2022, 11:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/safare1.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/G Rabbi.jpg" alt="">
+                        <div>
+                            <p>Golam Rabbi</p>
+                            <span class="sad">June 20 2022, 10:10 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/G Rabbi.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/G Rabbi.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">April 14 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/safere2.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/abu.jpg" alt="">
+                        <div>
+                            <p>Abu Talha</p>
+                            <span class="sad">May 10 2022, 10:30 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/abu.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/abu.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/nahid.jpg" alt="">
+                        <div>
+                            <p>Md Nahid Hasan</p>
+                            <span class="sad">June 12 2022, 10:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/nahid.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/nahid.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/sakib.jpg" alt="">
+                        <div>
+                            <p>Shakib Hasan</p>
+                            <span class="sad">June 24 2022, 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text">Like and share this post with friends <span>@Easy Tutorials</span> facebook page on your post. Ask your doubts in 
+                    the comments. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a>
+                </p>
+                <img src="img/sakib.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/sakib.jpg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">April 14 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Tour <span>@SYLHET</span>
+                    . <a href="#">#BPHS</a> <a href="#">#Sylhet</a>
+                </p>
+                <img src="img/p2.jpeg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">April 14 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Tour <span>@SYLHET</span>
+                    . <a href="#">#BPHS</a> <a href="#">#Sylhet</a>
+                </p>
+                <img src="img/p7.jpeg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">April 14 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Tour <span>@SYLHET</span>
+                    . <a href="#">#BPHS</a> <a href="#">#Sylhet</a>
+                </p>
+                <img src="img/received_1802254876575897.jpeg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">April 14 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Tour <span>@SYLHET</span>
+                    . <a href="#">#BPHS</a> <a href="#">#Sylhet</a>
+                </p>
+                <img src="img/p8.jpeg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/p6.jpeg" alt="">
+                        <div>
+                            <p>Sadman Sagor</p>
+                            <span class="sad">April 14 2022, 12:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <p class="post-text"> Tour <span>@SYLHET</span>
+                    . <a href="#">#BPHS</a> <a href="#">#Sylhet</a>
+                </p>
+                <img src="img/p4.jpg" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/img/like.png" alt="">500</div>
+                        <div><img src="img/img/talk.png" alt="">100</div>
+                        <div><img src="img/img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="img/p6.jpeg" alt=""> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+        <!-----------right-sidebar------------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i> Bhaluka , Mymensingh</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p> <i class="fa-solid fa-location-dot"></i>  Bhaluka , Mymensingh</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="img/tour.jpg" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/nahid.jpg" alt="Nahid">
+                </div>
+                <p>Md Nahid Hasan</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/abu.jpg" alt="Talha">
+                </div>
+                <p>Abu Talha</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/sakib.jpg" alt="Sakib">
+                </div>
+                <p>Md Shakib</p>
+            </div>
+
+        </div>
+    </div>
+
+
+<div class="footer">
+    <p>Copyright 2024 - Sadman Sagor</p>
+</div>
+<script src="js/java.js"></script>
+</body>
+</html>
